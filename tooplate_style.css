@@ -1,0 +1,410 @@
+/*
+Template 2037 Orange Sea
+http://www.tooplate.com/view/2037-orange-sea
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #9c9893;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.7em; 
+}
+
+#fp_body { background: #232420 url(images/tooplate_body.jpg) repeat-x top }
+#sp_body { background: #232420 url(images/tooplate_sp_body.jpg) repeat-x top }
+
+a, a:link, a:visited { 
+	color: #f9b507; 
+	font-weight: normal; 
+	text-decoration: underline; 
+	font-size: 12px; 
+}
+
+a:hover { text-decoration: none; }
+
+a.more { 
+	display: block; 
+	width: 80px; 
+	line-height: 25px; 
+	height: 25px; text-align: center; 
+	text-decoration: none; 
+	font-weight: bold; 
+	background: url(images/tooplate_more.png) no-repeat top center; 
+	color: #333; 
+}
+
+a.more:hover { color: #f9b507; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+blockquote { font-style: italic; margin: 0 0 0 10px;}
+cite { font-weight: bold; color:#fff; }
+cite span { color: #fff; }
+em { color: #c8690a; }
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
+h1 { font-size: 34px; margin: 0 0 20px; padding: 5px 0; }
+h2 { font-size: 28px; margin: 0 0 15px; padding: 5px 0; }
+h3 { font-size: 24px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { 
+	display: inline-block; 
+	border: 1px solid #484945; 
+	padding: 4px; 
+	background: #000; 
+	margin-bottom: 5px; 
+}
+
+.image_fl { 
+	float: left; 
+	margin: 3px 30px 0 0; 
+}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 0 30px; 
+}
+
+.tooplate_list { 
+	margin: 20px 0 20px 30px; 
+	padding: 0; 
+	list-style: circle; 
+}
+
+.tooplate_list li { 
+	color:#f9b507; 
+	margin: 0; 
+	padding: 0 0 5px 0; 
+}
+
+.tooplate_list li a { 
+	color: #f9b507; 
+	font-weight: normal; 
+	font-size: 12px; 
+	text-decoration: none; 
+}
+
+.tooplate_list li a:hover { 
+	text-decoration: underline; 
+}
+
+#tooplate_fp_100_wrapper { width: 100%; background: url(images/tooplate_fp_wrapper.jpg) top center no-repeat }
+#tooplate_sp_100_wrapper { width: 100%; background: url(images/tooplate_sp_wrapper.jpg) top center no-repeat }
+
+#tooplate_fp_wrapper {
+	width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+	background: url(images/tooplate_fp_wrapper.jpg) top center no-repeat;
+}
+
+#tooplate_sp_wrapper {
+	width: 960px;
+	padding: 0 10px;
+	margin: 0 auto;
+	background:	url(images/tooplate_sp_wrapper.jpg) top center no-repeat;
+}
+
+#tooplate_top {
+	width: 960px;
+	height: 40px;
+}
+
+#tooplate_header {
+	width: 960px;
+	height: 50px;
+	padding: 20px 0;
+}
+
+#site_title { 
+	float: left; 
+}
+
+#site_title h1 { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#site_title h1 a { 
+	display: block; 
+	width: 160px; 
+	height: 57px; 
+	color: #fff; 
+	text-indent: -10000px; 
+	background: url(images/tooplate_logo.pn)  no-repeat top left; 
+}
+
+/* menu */
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+#tooplate_menu {
+	float: right;
+	width: 800px;
+	margin: 30px auto 0;
+}
+
+#tooplate_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#tooplate_menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#tooplate_menu ul li a {
+	float: left;
+	display: block;
+	padding: 5px 30px;
+	font-size: 16px;
+	color: #f8a812;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	outline: none;
+	border: none;
+}
+
+#tooplate_menu ul li a:hover, #tooplate_menu ul .current {
+	color: #fff;
+}
+
+/* end of menu */
+
+#tooplate_middle { 
+	clear: both;
+	width: 800px;
+	height: 210px;
+	padding: 30px 160px 30px 0; 
+	overflow: hidden;
+}
+
+#tooplate_sp_middle {
+	clear: both;
+	width: 800px;
+	height: 110px;
+	padding: 30px 160px 30px 0; 
+	overflow: hidden;
+}
+
+#mid_title { 
+	font-size: 24px; 
+	font-weight: 400; 
+	color: #fff; 
+	margin-bottom: 20px; 
+	text-shadow: 1px 1px 1px #555; 
+}
+
+#tooplate_middle, #tooplate_sp_middle p {
+	font-size: 14px;
+	color: #f4e9d9;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+#tooplate_middle img { 
+	float: right; 
+	margin-left: 60px; 
+}
+
+#learn_more a { 
+	display: block; 
+	width: 202px; 
+	height: 42px; 
+	background: url(images/tooplate_learn_more.png); 
+}
+
+/* main */
+
+#tooplate_main {
+	clear: both;
+	width: 960px;
+	padding: 60px 0; 
+}
+
+#tooplate_main p {
+	margin-bottom: 10px;
+}
+
+.col_w960 { width: 960px; margin-bottom: 40px }
+.col_w600 { width: 600px }
+.col_w450 { width: 450px }
+.col_w300 { width: 300px }
+.col_w200 { width: 200px }
+.col_allw300 { float: left; margin-right: 30px }
+.col_last { margin: 0 }
+
+.fp_lw_box { clear: both; margin-bottom: 30px }
+.fp_lw_box img { margin-right: 15px; padding-top: 3px }
+.fp_lw_box h6 { margin-bottom: 0 }
+.fp_lw_box h6 a { font-weight: bold; text-decoration: none }
+
+#map img {  }
+
+#contact_form { 
+	padding: 0; 
+	width: 400px; 
+}
+
+#contact_form form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#contact_form form .input_field { 
+	width: 320px; 
+	padding: 8px; 
+	color: #fff; 
+	border: 1px solid #444;  
+	background: #111; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form label { 
+	display: block; 
+	width: 100px; 
+	margin-top: 10px; 
+	font-size: 14px; 
+}
+
+#contact_form form textarea { 
+	width: 380px; 
+	height: 200px; 
+	padding: 8px; 
+	border: 1px solid #444; 
+	color: #fff;  
+	background: #111; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form .submit_btn {
+	margin: 10px 0px;
+	padding: 10px 16px;
+	background: #111;
+	color: #fff;
+	border: 1px solid #444;
+	font-size: 14px;
+}
+
+#gallery { margin: 0; padding: 0 }
+#gallery ul { margin: 0; padding: 0; list-style: none }
+#gallery ul li { display: block; position: relative; float: left; width: 300px; margin: 0 30px 30px 0; }
+#gallery ul .lmb { margin: 0 0 35px 0; }
+#gallery ul li a img { width: 290px; height: 180px; }
+#gallery ul li span { position: absolute; display: block; left: 0; top: 20px; padding: 5px 20px; background: #000 }
+#gallery ul li span a { color: #fff; font-size: 20px; text-decoration: none; }
+
+.post_box { clear: both; margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid #000 }
+.post_header { border-top: 3px solid #999; border-bottom: 1px solid #ccc; padding: 5px; margin-bottom: 20px }
+.post_box h2 { font-size: 34px; margin-bottom: 20px }
+.post_box p.post_meta { margin-bottom: 0 }
+.post_box img { clear: both; margin-bottom: 10px }
+
+#tooplate_footer_wrapper {
+	clear: both;
+	width: 100%;
+	background: #4a4642;
+}
+
+#tooplate_footer {
+	clear: both;
+	width: 940px;
+	padding: 10px 0; 
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#tooplate_footer a { color: #f7b40a; text-decoration: underline }
+
+  #signup {
+
+     width: 404px;
+     padding-bottom: 2px;
+
+    display:none;
+
+
+    background: #FFF;
+        border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+        box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+       
+}
+
+        #test {
+     width: 600px;
+padding: 30px; 
+    display:none;
+
+
+    background: #FFF;
+        border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+        box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+       
+}
+
+#test p { color: #666; text-shadow: none; }
+
+#signup-header { background: url(../img/hd-bg.png); padding: 18px 18px 14px 18px; border-bottom: 1px solid #CCC; border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+
+#signup-header  h2 { color: #444; font-size: 2em; font-weight: 700; margin-bottom: 3px; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); }
+#signup-header  p { color: #444; font-size: 1.3em; margin: 0; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); text-shadow: none; }
+
+#signup .txt-fld { position: relative; width: 364px; padding: 14px 20px; border-bottom: 1px solid #EEE; text-align: right; }
+#signup .btn-fld { width: 254px; overflow: hidden; padding: 12px 20px 12px 130px; }
+
+#signup .txt-fld label { display: block; float: left; width: 90px; padding-top: 8px; color: #222; font-size: 1.3em; text-align: left;  }
+#signup .txt-fld input { width: 244px; padding: 8px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; font-size: 1.2em; color: #222; background: #F7F7F7; font-family: "Helvetica Neue"; outline: none; border-top: 1px solid #CCC; border-left: 1px solid #CCC; border-right: 1px solid #E7E6E6; border-bottom: 1px solid #E7E6E6; }
+#signup .txt-fld input.good_input { background: #DEF5E1 url(../img/good.png) 236px center no-repeat; }
+#signup .txt-fld input.error_input { background: #FDE0E0; }
+
+
+
+p.error { position: absolute; bottom: 48px; right: 20px; width: 262px; color: #FFF; font-size: 1.1em; padding-bottom: 5px; background: url(../img/error-arw.png) 20px bottom no-repeat; text-align: left; margin: 0; text-shadow: none; }
+p.error span { display: inline-block; background: #D43636; padding: 6px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;  }
+.txt-fld input:focus, .txt-fld textarea:focus { background-color: #FAF9DC; }
+        
+button {
+	float: right;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	background: #3F9D4A; 
+	border: none;
+  width: auto;
+  overflow: visible;
+  font-size: 1.4em;
+  color: #FFF;
+ padding: 7px 10px;  border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; font-weight: bold; text-shadow: 0 1px 0 rgba(0,0,0,0.4);}
+        
+.modal_close { position: absolute; top: 12px; right: 12px; display: block; width: 14px; height: 14px; background: url(../img/modal_close.png); z-index: 2; }

@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Orange Sea Theme - Gallery Page</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!--
+Template 2037 Orange Sea
+http://www.tooplate.com/view/2037-orange-sea
+-->
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+  
+<!--////// CHOOSE ONE OF THE 3 PIROBOX STYLES  \\\\\\\-->
+<link href="css_pirobox/white/style.css" media="screen" title="shadow" rel="stylesheet" type="text/css" />
+<!--<link href="css_pirobox/white/style.css" media="screen" title="white" rel="stylesheet" type="text/css" />
+<link href="css_pirobox/black/style.css" media="screen" title="black" rel="stylesheet" type="text/css" />-->
+<!--////// END  \\\\\\\-->
+
+<!--////// INCLUDE THE JS AND PIROBOX OPTION IN YOUR HEADER  \\\\\\\-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/piroBox.1_2.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$().piroBox({
+			my_speed: 600, //animation speed
+			bg_alpha: 0.5, //background opacity
+			radius: 4, //caption rounded corner
+			scrollImage : false, // true == image follows the page, false == image remains in the same open position
+			pirobox_next : 'piro_next', // Nav buttons -> piro_next == inside piroBox , piro_next_out == outside piroBox
+			pirobox_prev : 'piro_prev',// Nav buttons -> piro_prev == inside piroBox , piro_prev_out == outside piroBox
+			close_all : '.piro_close',// add class .piro_overlay(with comma)if you want overlay click close piroBox
+			slideShow : 'slideshow', // just delete slideshow between '' if you don't want it.
+			slideSpeed : 4 //slideshow duration in seconds(3 to 6 Recommended)
+	});
+});
+	function save()
+	{
+		alert("saved succesfully");
+	}
+</script>
+<!--////// END  \\\\\\\-->
+
+</head>
+<body id="sp_body">
+
+<div id="tooplate_sp_100_wrapper">
+	<div id="tooplate_sp_wrapper">
+	
+		<div id="tooplate_top"></div>
+	
+		<div id="tooplate_header">
+			<div id="site_title"><h1><a href="#">Orange Sea</a></h1></div>
+			<div id="tooplate_menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>    	
+			</div> <!-- end of forever menu -->
+		</div> <!-- end of forever header -->
+		
+		<div id="tooplate_sp_middle">
+			<div id="mid_title">
+				Shipment Entry
+			</div>
+			<p> Enter here the shipment details including customer email adress, so that the customer wil get the shipment id by email. A QR code and a Barcode get generated from the shipment id instantly . </p>
+			<div class="cleaner"></div>
+		</div> <!-- end of middle -->
+		
+    <div id="tooplate_main">
+    
+    	<div id="gallery">
+        
+               <table align="center" cellpadding="" cellspacing="1" width="50%" height="50%"><hr />
+                	<form action="shipmententry.php" method="post"><tr>
+                 <td><font size="+1">Shipment Id</font></td><td><input type="text" name="s_id" size="32px" style="border-style: dashed; border-color:#F90"/></td></tr>
+              
+              			<tr>
+                 <td><font size="+1">Customer Email_Id</font></td><td><input type="text" name="c_email" size="32px" style="border-style: dashed; border-color:#F90"/></td></tr>
+                 
+                 	<tr>
+                 <td><font size="+1">Shipment Weight</font></td><td><input type="text" name="s_weight" size="12px" style="border-style: dashed; border-color:#F90"/>&nbsp; Kg</td></tr>
+                 
+                 <tr>
+                 <td><font size="+1">No. of items</font></td><td><input type="text" name="n_items" size="12px" style="border-style: dashed; border-color:#F90"/>&nbsp;</td></tr>
+                 
+                 <tr>
+                 <td><font size="+1">Current Position</font></td><td><select style="border-style: dashed; border-color:#F90" name="c_pos">
+                 <option selected="selected">---Select Warehouse---</option>
+                 <option value="mum">Mumbai</option>
+                 <option value="hyd">Hyderabad</option>
+                 <option value="che">Chennai</option>
+                 <option value="cal">Calicut</option>
+                 </select>&nbsp;</td></tr>
+                 
+                         
+                 <tr>
+                 <td><font size="+1">Description</font></td><td><textarea name="desc" style="background-color:#CCC" style="border-style: dashed; border-color:#F90" style="border-style:dashed"></textarea>&nbsp;</td></tr>
+                 <tr><td style="visibility:hidden" ></td><td>
+         
+         <hr /> <a class="more"> <input type="submit" value="Save" style="background-color: #F90" align="right" style="border-style: dashed; border-color:#F90" onclick="save()"/></a></td></tr>
+                 </form></table>
+                 
+              <div class="cleaner"></div>
+          </div>
+    	
+    	<div class="cleaner"></div>
+    </div> <!-- end of main -->
+
+
+	
+	</div> <!-- end of fp wrapper -->
+</div> <!-- end of fp 100% wrapper -->
+
+<div id="tooplate_footer_wrapper">
+	<div id="tooplate_footer">
+    	
+		Copyright © CakeNow 2015 <a href="#"></a>  &nbsp;&nbsp;  Website: &nbsp;<a href="http://www.tooplate.com">wwww.cakenow.in</a>
+		
+	</div>
+</div>
+
+</body>
+</html>
